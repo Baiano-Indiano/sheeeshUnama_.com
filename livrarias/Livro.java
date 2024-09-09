@@ -2,10 +2,15 @@ import java.util.Scanner;
 
 package livraria;
 public class Livro {
-    String titulo;
-    Int numeroPaginas;
-    double preco;
 
+private String titulo;
+public int numeroPaginas;
+private double preco;
+
+public Livro(String titulo, int numeroPaginas, double preco){
+    this.titulo = titulo;
+    this.preco = preco;
+}
 
     void cadastrar(){
         System.out.println("Cadastrando o livro");
